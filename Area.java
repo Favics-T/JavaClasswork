@@ -3,7 +3,8 @@ import java.util.Scanner;
 
 public class Area {
 
-    public static void main(String[] args){
+    public static void main(String[] args)
+    {
         double width;
         double heigth;
         double area;
