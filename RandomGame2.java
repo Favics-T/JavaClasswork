@@ -44,6 +44,8 @@ public class RandomGame2 {
                         System.out.println("GAME OVER the correct number was" + number);
                     }
 
+
+
                 
             }
 
@@ -55,7 +57,7 @@ public class RandomGame2 {
             System.out.println("You just exited the game");
         }
 
-     
+     scanner.close();
 
     }
 }

@@ -24,4 +24,8 @@ public class WhileLoop {
      System.out.println("You are playing a game");
     }
 
+    GetSet getset = new GetSet();
+
+    getset.setAge(9);
+
 }
