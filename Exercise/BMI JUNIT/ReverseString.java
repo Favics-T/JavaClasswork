@@ -1,19 +1,22 @@
 public class ReverseString {
-    public static void main (String []args){
+    public static void main(String[] args) {
+        String str = "Hello World"; // You can change this string
         char[] charArray = str.toCharArray();
-        int left =0;
-        int right =str.length() -1;
+        int left = 0;
+        int right = str.length() - 1;
 
-        while(left < right){
-            //swap characters at the left and rigth positions
+        while (left < right) {
+            // swap characters at left and right positions
             char temp = charArray[left];
             charArray[left] = charArray[right];
             charArray[right] = temp;
 
-            //move the pointers towards each other
+            // move the pointers toward each other
             left++;
-            right++;
+            right--;
         }
-        return new String(charArray);
+
+        String reversed = new String(charArray);
+        System.out.println("Reversed string: " + reversed);
     }
 }
